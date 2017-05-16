@@ -2,7 +2,7 @@
 
 CLS
 ECHO.
-ECHO Fix TrendMicro Server Location...
+ECHO Fix <anti-virus> Server Location...
 ECHO.
 
 SETLOCAL
@@ -17,4 +17,4 @@ Robocopy.exe "%source%" "%target_1%" "IpXfer_x64.exe" /LOG+:"%log%\TrendMicroFix
 Robocopy.exe "%source%" "%target_2%" "IpXfer_x64.exe" /LOG+:"%log%\TrendMicroFix.log"
 
 CD /d "%target_2%"
-START "Fixing TrendMicro Server Location...PLEASE DO NOT CLOSE THIS WINDOW" %command%
+START "Fixing <anti-virus> Server Location...PLEASE DO NOT CLOSE THIS WINDOW" %command%

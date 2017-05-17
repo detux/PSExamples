@@ -1,14 +1,12 @@
 <#
-    .FILENAME
-    reMapDrive.ps1
-
-    .DATE
-    30/01/2014
-
-    .AUTHOR
-    <author>
-
-    .DESCRIPTION
+	.NOTES
+	===========================================================================
+	 Created on:   	29/12/2016 10:58 AM
+	 Created by:   	
+	 Organization: 	
+	 Filename:     	ReMap-Drive.ps1
+	===========================================================================
+	.DESCRIPTION
     The user can select the CSV file from the "WhatAreMySharedDrives" folder based on the date last created and the drives will be remapped.
 #>
 

@@ -6,10 +6,9 @@
 	 Organization: 	<company>
 	 Filename:     	ReMap-Drive.ps1
 	===========================================================================
-	
 	.DESCRIPTION
-    	The user can select the CSV file from the "WhatAreMySharedDrives" folder based on the date 
-	last created and the drives will be remapped.
+    	The user can select the CSV file from the "WhatAreMySharedDrives" folder 
+	based on the date last created and the drives will be remapped.
 #>
 
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser

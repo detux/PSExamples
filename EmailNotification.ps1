@@ -124,7 +124,7 @@ function passwordExp
         {
             $ErrorMessage = $_.Exception.Message
             $FailedItem = $_.Exception.ItemName
-            Write-Error -Exception $FailedItem -Message $ErrorMessage 
+            Write-Error -Message $ErrorMessage 
         }
     }
 }

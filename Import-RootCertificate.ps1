@@ -8,13 +8,13 @@
 	===========================================================================
 	
   	.DESCRIPTION
-  	Imports the certificates from the directory with the ".der" extension. The
-  	certificates are imported into the Trusted Root store of the local machine.
-  	This script is run locally on the users machine with local admin rights.
-  	Right-Click Run the powershell console as "As Administrator".
+  		Imports the certificates from the directory with the ".der" extension. The
+  		certificates are imported into the Trusted Root store of the local machine.
+  		This script is run locally on the users machine with local admin rights.
+  		Right-Click Run the powershell console as "As Administrator".
   
   	.EXAMPLE
-  	./Import-RootCertificate.ps1
+  		./Import-RootCertificate.ps1
 #>
 
 $scriptDir = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent

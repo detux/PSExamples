@@ -1,17 +1,16 @@
 <#
-	          .NOTES
-	          ===========================================================================
-	           Created on:   	29/12/2016 10:58 AM
-	           Created by:   	<author>
-	           Organization: 	<company>
-	           Filename:     	EmailNotification.ps1
-	          ===========================================================================
-	          .DESCRIPTION
-		          The script sends out pre-notification alert emails 7 and 2 days before 
-		          the passwords are set to expire.
+	.NOTES
+	===========================================================================
+	 Created on:   	29/12/2016 10:58 AM
+	 Created by:   	<author>
+	 Organization: 	<company>
+	 Filename:     	EmailNotification.ps1
+	===========================================================================
+	.DESCRIPTION
+	The script sends out pre-notification alert emails 7 and 2 days before 
+	the passwords are set to expire.
 #>
 
-Clear-Host
 $userEmailAddresses = Get-Content "<location path to email text> "
 $firstExpiryAlert = 7
 $secondExpiryAlert = 2

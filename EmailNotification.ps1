@@ -1,6 +1,6 @@
 ####################################################################################################################
 # FileName: <fileName>.ps1                                                                                         #
-# Author: <author>                                                                                               #
+# Author: <author>                                                                                                 #
 # Description: The script sends out pre-notification alert emails 7 and 2 days before the passwords are set to     #
 # expire.                                                                                                          #
 ####################################################################################################################

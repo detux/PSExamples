@@ -8,11 +8,12 @@
 	===========================================================================
 	
 	.DESCRIPTION
-    	The user can select the CSV file from the "WhatAreMySharedDrives" folder 
-	based on the date last created and the drives will be remapped.
+    		The user can select the CSV file from the "WhatAreMySharedDrives" 
+		folder based on the date last created and the drives will be 
+		remapped.
 	
 	.EXAMPLE
-	./ReMap-Drive.ps1
+		./ReMap-Drive.ps1
 #>
 
 Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope CurrentUser

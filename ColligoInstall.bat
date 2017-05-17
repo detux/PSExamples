@@ -70,7 +70,7 @@ REM Install Visual studio 2005 Tools for office 2nd Edition Runtime
 
 ECHO Installing Colligo ...
 ECHO.
-MSIEXEC /qb /i "%VERSIONPATH%\ColligoContributor.msi" LICENSE_KEY=EQB42-9HNPQ-1RJGJ-PGFC4-341FH /lv* "%appdata%\colligoinstall.txt"
+MSIEXEC /qb /i "%VERSIONPATH%\ColligoContributor.msi" LICENSE_KEY=<license key> /lv* "%appdata%\colligoinstall.txt"
 
 ECHO Align Email attachment size limit with Exchange
 REG QUERY "HKEY_LOCAL_MACHINE\Software\Wow6432Node\ColligoOfflineClient\Outlook\CAMFilter\BlockLimit" /v CAMFILTER_BLOCK_LIMIT 2>NUL 1>NUL

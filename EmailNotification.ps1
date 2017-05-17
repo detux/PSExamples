@@ -6,9 +6,13 @@
 	 Organization: 	<company>
 	 Filename:     	EmailNotification.ps1
 	===========================================================================
+	
 	.DESCRIPTION
 	The script sends out pre-notification alert emails 7 and 2 days before 
 	the passwords are set to expire.
+	
+	.EXAMPLE
+	./EmailNotification.ps1
 #>
 
 $userEmailAddresses = Get-Content "<location path to email text> "

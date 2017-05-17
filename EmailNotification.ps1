@@ -9,7 +9,6 @@ Clear-Host
 $userEmailAddresses = Get-Content "<location path to email text> "
 $firstExpiryAlert = 7
 $secondExpiryAlert = 2
-$array = @()
 
 ##############################################################################
 #.SYNOPSIS
@@ -35,7 +34,7 @@ function send_email ($days_remaining, $email, $User_name)
  $msg1 = New-Object system.net.mail.mailmessage 
  $msg1.From = "<sender email address>"
  $msg1.To.Add($email)
-  $msg1.Subject = "Your password is due to expire"
+ $msg1.Subject = "Your password is due to expire"
  $msg1.IsBodyHtml = $true
  $msg1.Body = @("
  <!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
@@ -76,7 +75,7 @@ function send_email ($days_remaining, $email, $User_name)
 <p>
 Regards,<br>
 <br>
-Service Delivery Management<br>
+Service Delivery Manager<br>
 </p>
 </body>
 </html>

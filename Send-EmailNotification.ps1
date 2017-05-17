@@ -4,7 +4,7 @@
 	 Created on:   	2/5/2015 11:00 AM
 	 Created by:   	<author>
 	 Organization: 	<company>
-	 Filename:     	EmailNotification.ps1
+	 Filename:     	Send-EmailNotification.ps1
 	===========================================================================
 	
 	.DESCRIPTION
@@ -12,7 +12,7 @@
 	the passwords are set to expire.
 	
 	.EXAMPLE
-	./EmailNotification.ps1
+	./Send-EmailNotification.ps1
 #>
 
 $userEmailAddresses = Get-Content "<location path to email text> "

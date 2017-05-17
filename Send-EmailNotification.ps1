@@ -8,11 +8,11 @@
 	===========================================================================
 	
 	.DESCRIPTION
-	The script sends out pre-notification alert emails 7 and 2 days before 
-	the passwords are set to expire.
+		The script sends out pre-notification alert emails 7 and 2 days 
+		before the passwords are set to expire.
 	
 	.EXAMPLE
-	./Send-EmailNotification.ps1
+		./Send-EmailNotification.ps1
 #>
 
 $userEmailAddresses = Get-Content "<location path to email text> "

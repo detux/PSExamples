@@ -2,8 +2,8 @@
 	.NOTES
 	===========================================================================
 	 Created on:   	29/12/2016 10:58 AM
-	 Created by:   	Seth Rohan
-	 Organization: 	Siemens Ltd.
+	 Created by:   	<author>
+	 Organization: 	<company>
 	 Filename:     	CleanUp-HomeDrive.ps1
 	===========================================================================
 	.DESCRIPTION

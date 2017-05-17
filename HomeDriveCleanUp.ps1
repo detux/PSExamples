@@ -8,6 +8,9 @@
 	===========================================================================
 	.DESCRIPTION
 		Cleanup users content from home drive (H:).
+		
+	.EXAMPLE
+		./HomeDriveCleanUp.ps1
 #>
 $currentTimeStamp = "[" + ((Get-Date).ToShortDateString()) + " " + ((Get-Date).ToShortTimeString()) + "]"
 $fileDateTime = Get-Date -UFormat "%d%b%YT%I%M%p"

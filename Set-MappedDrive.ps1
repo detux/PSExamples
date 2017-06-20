@@ -7,7 +7,8 @@
 	 Filename:     	Set-MappedDrive.ps1
 	===========================================================================
 	.DESCRIPTION
-		Check the existing mappings on a user machines, remove the existing server mapping and remap to new server keeping the folder hierarchy intact.
+		Check the existing mappings on a user machines, remove the existing server 
+		mapping and remap to new server keeping the folder hierarchy intact.
 #>
 
 function Set-Logs
@@ -23,7 +24,7 @@ function Set-Logs
 
 Clear-Host
 $PSScriptRoot = Split-Path -Parent -Path $MyInvocation.MyCommand.Definition
-$csvDetails = Import-Csv -Path "$PSScriptRoot\OldNewServerMapping.csv"
+$csvDetails = Import-Csv -Path "$PSScriptRoot\<file name>.csv"
 $dateTime = Get-Date -UFormat "%d%m%Y_%H%M%Sp"
 $filePath = $env:APPLOGSU
 $logPath = "$filePath\mapping_$dateTime.log"
